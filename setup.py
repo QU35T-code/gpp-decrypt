@@ -7,5 +7,5 @@ setup(
     author_email='t0thkr1s@icloud.com',
     description='Tool to parse the Group Policy Preferences XML file which '
                 'extracts the username and decrypts the cpassword attribute.',
-    install_requires=['Crypto', 'colorama']
+    install_requires=['colorama', 'pycryptodome']
 )
